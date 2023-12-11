@@ -14,6 +14,6 @@
             Print(array, index + 1);
             Console.WriteLine(element);
         }
-        catch (IndexOutOfRangeException ignored) { }
+        catch (IndexOutOfRangeException) { }
     }
 }
